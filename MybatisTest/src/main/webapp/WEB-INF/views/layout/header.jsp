@@ -10,9 +10,9 @@
 </head>
 <body>
 	<nav id="topMenu">
-		<ul>
+		<ul> 
 			<li><a class="menuLink" href="#">Home</a></li>
-			<li><a class="menuLink" href="bookList.do">book</a></li>
+			<li><a class="menuLink" href="ajaxJquery.do">book</a></li>
 			<c:if test="${empty id }">
 			<li><a class="menuLink" href="memberJoinForm.do">Join</a></li>
 			</c:if>
